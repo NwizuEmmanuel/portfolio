@@ -23,6 +23,9 @@ Built a model to predict customer retention using Python and SQL.
 Designed an interactive Power BI dashboard to analyze sales trends.
 
 ---
+## Certificates
+1. Google Data Analytics Professional Certificate(on going) [View certificate here]()
+---
 
 ## Contact
 
