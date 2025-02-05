@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
             color: #333;
             text-align: center;
         }
+
         .container {
             width: 60%;
             margin: 20px auto;
@@ -21,21 +23,28 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             color: #2c3e50;
         }
+
         .contact a {
             color: #3498db;
             text-decoration: none;
         }
+        .download-section{
+            margin-bottom: 2rem;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Onyeka Emmanuel Nwizu</h1>
         <h3>Aspiring Data Analyst | Open to Internship Opportunities</h3>
         <p>Passionate about data-driven decision-making, statistical analysis, and visualization.</p>
-        
+
         <h2>Skills</h2>
         <ul>
             <li>Python, SQL, R</li>
@@ -43,15 +52,28 @@
             <li>Machine Learning Basics</li>
             <li>Data Cleaning & Wrangling</li>
         </ul>
-        
+
         <h2>Projects</h2>
-        <p><strong>Customer Churn Prediction:</strong> Built a model to predict customer retention using Python and SQL.</p>
-        <p><strong>Sales Data Dashboard:</strong> Designed an interactive Power BI dashboard to analyze sales trends.</p>
-        
+        <p><strong>Customer Churn Prediction:</strong> Built a model to predict customer retention using Python and SQL.
+        </p>
+        <p><strong>Sales Data Dashboard:</strong> Designed an interactive Power BI dashboard to analyze sales trends.
+        </p>
+
         <h2>Contact</h2>
         <p>Email: nwizuemmanuel200@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/onyeka-nwizu-a71166202" target="_blank">linkedin.com/in/onyeka-nwizu-a71166202</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/onyeka-nwizu-a71166202"
+                target="_blank">linkedin.com/in/onyeka-nwizu-a71166202</a></p>
         <p>GitHub: <a href="https://github.com/NwizuEmmanuel" target="_blank">github.com/NwizuEmmanuel</a></p>
     </div>
+    <div class="download-section">
+        <a href="" onclick="printPage()">download this RESUME/CV</a>
+    </div>
+
+    <script>
+        function printPage(){
+            window.print();
+        }
+    </script>
 </body>
+
 </html>
