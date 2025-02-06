@@ -3,7 +3,9 @@
 **Aspiring Data Analyst | Open to Internship Opportunities**
 
 Passionate about data-driven decision-making, statistical analysis, and visualization.
-
+---
+## Education
+- Virgen milagrosa university foundation (San Carlos city, pangasinan, Philippines)
 ---
 
 ## Skills
